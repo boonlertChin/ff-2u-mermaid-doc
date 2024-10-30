@@ -62,4 +62,6 @@ erDiagram
         number available_weight "Available Weight Capacity"
         reference receiving_zone "Receiving Zone (Reference)"
     } 
+
+    FACTORY ||--o{ WAREHOUSE: "has many"
 ```
