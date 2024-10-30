@@ -1,4 +1,4 @@
-## Demo Case | Sequence Diagram
+## Company plant
 ```mermaid
 erDiagram
     COMPANY {
@@ -16,6 +16,12 @@ erDiagram
     }
 
     COMPANY ||--o{ PLANT: "has many"
+
+```
+
+## Company plant
+```mermaid
+erDiagram
 
     FACTORY {
         string name "Factory Name"
@@ -39,4 +45,3 @@ erDiagram
 
     FACTORY ||--|| ADDRESS: "contains"
 ```
-
