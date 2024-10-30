@@ -1,3 +1,5 @@
+## Demo Case | Sequence Diagram
+```mermaid
 erDiagram
     COMPANY {
         string code PK "Company Code (Primary Key)"
@@ -14,3 +16,4 @@ erDiagram
     }
 
     COMPANY ||--o{ PLANT: "has many"
+```
