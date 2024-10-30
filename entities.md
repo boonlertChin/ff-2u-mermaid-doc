@@ -44,4 +44,22 @@ erDiagram
     }
 
     FACTORY ||--|| ADDRESS: "contains"
+
+   WAREHOUSE {
+        string name "Warehouse Name"
+        string code PK "Unique Warehouse Code (Primary Key)"
+        reference factory_id FK "Associated Factory (Reference)"
+        json address "Address JSON"
+        string telephone "Contact Telephone"
+        number width "Width (meters)"
+        number depth "Depth (meters)"
+        number height "Height (meters)"
+        number boxes_per_row "Boxes per Row"
+        number boxes_per_column "Boxes per Column"
+        number volume_capacity "Total Volume Capacity (cubic meters)"
+        number weight_capacity "Total Weight Capacity (kg)"
+        number available_volume "Available Volume Capacity"
+        number available_weight "Available Weight Capacity"
+        reference receiving_zone "Receiving Zone (Reference)"
+    } 
 ```
